@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    position: fixed;
+    background-color: rgb(233, 241, 247);
+    /* justify-content: space-around; */
+    top: 0;
+    margin-right: 0;
+    left: 0;
+    line-height: 50px;
+    width: 100%;
+    z-index: 99;
+    /* background: none; */
+}
+
+.header p a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+.header img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    margin-top: 4px;
+    padding: 0 5px;
+}
+.red img{
+    width: 100%;
+    height: auto;
+    left: 0;
+}
+a{
+    text-decoration: none;
+}
+.red .product{
+    text-align: center;
+    background-color: whitesmoke;
+    width: 300px;
+    height: 500px;
+    padding: 20px;
+    color: black;
+    transition: 1s;    
+}
+.red .product:hover{
+    box-shadow: 5px 10px 100px #888888;
+    transition: 1s;
+}
+.imgNek{
+    width: 100%;
+    height: 300px;
+    background-image: url(https://prodimage.images-bn.com/pimages/9780545162074_p0_v2_s1200x630.jpg);
+    transition:all 1s;
+    background-size: cover;
+    margin-bottom: 30px;
+    object-fit: contain;
+}
+.imgNek:hover{
+    background-image:url(https://i.pinimg.com/originals/32/a6/df/32a6dfd74ddf5daa2ff25fda0cfec37c.jpg) ;
+    transition: 1s;
+}
+.imgNek2{
+    width: 100%;
+    height: 300px;
+    background-image: url(https://cdn0.fahasa.com/media/catalog/product/cache/1/thumbnail/362x/9df78eab33525d08d6e5fb8d27136e95/9/7/9780261102385.jpg);
+    transition:all 1s;
+    background-size: cover;
+    margin-bottom: 30px;
+    object-fit: contain;
+}
+.imgNek2:hover{
+    background-image:url(https://cdn0.fahasa.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/t/h/the_lord_of_the_rings_3_book_box_set__2_2018_08_22_11_02_48.jpg) ;
+    transition: 1s;
+}
+.imgNek3{
+    width: 100%;
+    height: 300px;
+    background-image: url(https://my-test-11.slatic.net/original/4f2e2d6d9c136ee935929cf5febc9cc3.jpg_720x720q80.jpg_.webp);
+    transition:all 1s;
+    background-size: cover;
+    margin-bottom: 30px;
+    object-fit: contain;
+}
+.imgNek3:hover{
+    background-image:url(https://my-test-11.slatic.net/original/c03a378ea6e0e03ef7e4e1994edee750.jpg_720x720q80.jpg_.webp) ;
+    transition: 1s;
+}
+.imgNek4{
+    width: 100%;
+    height: 300px;
+    background-image: url(https://salt.tikicdn.com/cache/w390/media/catalog/product/0/6/06b62414000005dc-3088537-image-a-1_1432074084323.u3059.d20170711.t122648.357906.jpg);
+    transition:all 1s;
+    background-size: cover;
+    margin-bottom: 30px;
+    object-fit: contain;
+}
+.imgNek4:hover{
+    background-image:url(https://salt.tikicdn.com/cache/w390/media/catalog/product/t/w/twilightsaga5set3.u3059.d20170711.t122648.434007.jpg) ;
+    transition: 1s;
+}
+.imgNek5{
+    width: 100%;
+    height: 300px;
+    background-image: url(https://salt.tikicdn.com/cache/w390/ts/product/8b/7f/21/7d32aa81d7f6c5f045d57e2faf1b489e.jpg);
+    transition:all 1s;
+    background-size: cover;
+    margin-bottom: 30px;
+    object-fit: contain;
+}
+.imgNek5:hover{
+    background-image:url(https://ae01.alicdn.com/kf/H4abb70b127df44eca39d46acca292d9cE.jpg_q50.jpg) ;
+    transition: 1s;
+}
+.imgNek6{
+    width: 100%;
+    height: 300px;
+    background-image: url(https://salt.tikicdn.com/cache/w390/ts/product/17/02/b2/0d79e0349d75d4833b329c410659e2bd.jpg);
+    transition:all 1s;
+    background-size: cover;
+    margin-bottom: 30px;
+    object-fit: contain;
+}
+.imgNek6:hover{
+    background-image:url(https://salt.tikicdn.com/cache/w390/ts/product/61/5e/d5/a63715be6bb3447e3ee6221f59f9d858.jpg) ;
+    transition: 1s;
+}
+.books{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.footer{
+    background-color: lightgray;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10%;
+    margin-top: 5px;
+}
+.footer-item{
+    width: 25%;
+}
+.footer h2{
+    text-align: center;
+    /* justify-content: center; */
+    margin-top: 1.5%;
+}
+.books h1{
+    font-family: 'Piazzolla', serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+.books h2{
+    font-family: 'Piazzolla', serif;
+    opacity: 0.5;
+}

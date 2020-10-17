@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookstore</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon"
+        href="data:image/png;base64,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">
+    <script src="https://kit.fontawesome.com/2945e9e534.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Piazzolla:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <img src="data:image/png;base64,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"
+            alt="">
+        <p><a href="./index.html">Home</a></p>
+        <p><a href="./news.html">News</a></p>
+        <p><a href="#">About us</a></p>
+    </div>
+    <div class="red">
+        <img src="https://www.rd.com/wp-content/uploads/2019/11/heart-book.jpg"alt="">
+        <div class="books">
+
+            <a href="">
+                <div class="product">
+                    <div class="imgNek"></div>
+                    <h1>Harry Potter Paperback Boxed Set, Books 1-7|Paperback</h1>
+                    <h2>Price: 1,500,000 VND</h2>
+                </div>
+            </a>
+            <a href="">
+                <div class="product">
+                    <div class="imgNek2"></div>
+                    <h1>The Lord of the Rings (3 Book Box set)</h1>
+                    <h2>Price: 375,000 VND</h2>
+                </div>
+            </a>
+            <a href="">
+                <div class="product">
+                    <div class="imgNek3"></div>
+                    <h1>Percy Jackson Ultimate Collection Boxset (5 Books)</h1>
+                    <h2>Price: 600,000 VND</h2>
+                </div>
+            </a>
+        </div>
+        <div class="books">
+
+            <a href="">
+                <div class="product">
+                    <div class="imgNek4"></div>
+                    <h1>Twilight Slip Case Volume 1.2.3.4</h1>
+                    <h2>Price: 1,200,000 VND</h2>
+                </div>
+            </a>
+            <a href="">
+                <div class="product">
+                    <div class="imgNek5"></div>
+                    <h1>Diary of a Wimpy Kid Box of Books 1-13</h1>
+                    <h2>Price: 1,700,000 VND</h2>
+                </div>
+            </a>
+            <a href="">
+                <div class="product">
+                    <div class="imgNek6"></div>
+                    <h1>Sherlock Holmes (Boxset Trọn Bộ 3 Tập)</h1>
+                    <h2>Price: 200,000 VND</h2>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-item">
+                <p class="text-bold">MindX</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, error? Praesentium, eligendi quis possimus libero tenetur at, voluptatum nesciunt quasi, perspiciatis beatae voluptate adipisci ipsam quod impedit ratione in consequuntur!</p>
+            </div>
+            <div class="footer-item">
+                <p class="text-bold">MindX</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, error? Praesentium, eligendi quis possimus libero tenetur at, voluptatum nesciunt quasi, perspiciatis beatae voluptate adipisci ipsam quod impedit ratione in consequuntur!</p>
+            </div>
+            <div class="footer-item">
+                <p class="text-bold">MindX</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, error? Praesentium, eligendi quis possimus libero tenetur at, voluptatum nesciunt quasi, perspiciatis beatae voluptate adipisci ipsam quod impedit ratione in consequuntur!</p>
+            </div>
+        </div>
+        <hr>
+        <h2>Made by MindX</h2>
+        </div>
+</body>
+
+</html>
